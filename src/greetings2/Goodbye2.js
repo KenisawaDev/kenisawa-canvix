@@ -3,11 +3,11 @@ const Canvas = require("canvas");
 module.exports = class Goodbye2 {
 
     constructor() {
-        this.fm = "https://telegra.ph/file/e80a619bd631900221efb.png";
+        this.fm = "https://telegra.ph/file/ee6f9115f9730b6817377.png";
         this.bg = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRAJUlAjJvRP_n-rV7mmb6Xf3-Zutfy8agig&usqp=CAU";
         this.avatar = "https://i.ibb.co/G5mJZxs/rin.jpg";
-        this.username = "Clayza Aubert";
-        this.grupname = "Victoria Official";
+        this.username = "KenisawaDev";
+        this.grupname = "Kenisawa Bots";
         this.member = "737";
     }
      //avatar
@@ -61,7 +61,7 @@ module.exports = class Goodbye2 {
         ctx.font = "700 20px Courier New";
         ctx.textAlign = 'left';
         ctx.fillStyle = "#ffffff";
-        ctx.fillText(`${this.member}th member`, 250, 290);
+        ctx.fillText(`${this.member} miembro`, 250, 290);
         
         let username = this.username;
         let namalu = username.length > 12 ? username.substring(0, 15) + "..." : username;
