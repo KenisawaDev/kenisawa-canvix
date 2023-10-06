@@ -3,7 +3,7 @@ const Canvas = require("canvas");
 module.exports = class Up {
 
     constructor() {
-        this.bg = "https://telegra.ph/file/ba6ea2216da5d249986d2.jpg";
+        this.bg = "https://telegra.ph/file/a9cccf2f1045507527cc1.png";
         this.avatar = "https://i.ibb.co/G5mJZxs/rin.jpg";
     }
      //avatar
